@@ -1,0 +1,33 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.logo {
+  filter: drop-shadow(0 0 1.5rem rgba(59, 130, 246, 0.65));
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin: 0;
+}
+
+.description {
+  max-width: 36rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: rgba(248, 250, 252, 0.85);
+}

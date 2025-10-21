@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">AGI Event Horizon</title>
+  <desc id="desc">Stylized event horizon logo</desc>
+  <defs>
+    <radialGradient id="gradient" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="70%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#111827" />
+    </radialGradient>
+  </defs>
+  <circle cx="60" cy="60" r="52" fill="url(#gradient)" />
+  <circle cx="60" cy="60" r="28" fill="#020617" />
+  <path
+    d="M60 18c13.807 0 25 11.193 25 25s-11.193 25-25 25-25-11.193-25-25 11.193-25 25-25z"
+    fill="none"
+    stroke="#f8fafc"
+    stroke-width="3"
+    opacity="0.75"
+  />
+  <circle cx="60" cy="60" r="8" fill="#f8fafc" />
+</svg>
